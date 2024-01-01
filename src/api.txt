@@ -1,0 +1,50 @@
+[
+{
+"name": "Home Kit",
+"image": "https://akn-barcin.a-cdn.akinoncloud.com/products/2019/12/19/87966/841ceb41-44c8-4825-85c5-4bd0327baa68_size900x900_cropCenter.jpg",
+"price": "65.00",
+"id": "1"
+},
+{
+"name": "Goalkeeper Gloves",
+"image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d435da8c-749f-4fba-b291-59f5ae371273/goalkeeper-match-football-gloves-H01tCX.png",
+"price": "17.00",
+"id": "2"
+},
+{
+"name": "Team Cap",
+"image": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLM3GBLGP-1.jpg?v=1680012207",
+"price": "15.00",
+"id": "3"
+},
+{
+"name": "Team Bag",
+"image": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61VhDwCeBTL._AC_UY1100_.jpg",
+"price": "25.00",
+"id": "4"
+},
+{
+"name": "Pro Cleats",
+"image": "https://i.pinimg.com/originals/7a/0b/a0/7a0ba01e98f43d94af3bba59d3b35f7b.jpg",
+"price": "40.00",
+"id": "5"
+},
+{
+"name": "Team Socks",
+"image": "https://www.stance.com/on/demandware.static/-/Sites-GlobalProductCatalog/default/dw0f619089/images/products/A558D21FCB_NVY.jpg",
+"price": "19.00",
+"id": "6"
+},
+{
+"name": "Team Ball",
+"image": "https://www.tradeinn.com/f/13856/138562127/nike-fc-barcelona-strike-football-ball.jpg",
+"price": "12.00",
+"id": "7"
+},
+{
+"name": "Away Kit",
+"image": "https://goatkitstore.com/cdn/shop/files/a44ff4be193b0ecf.jpg?v=1687475146",
+"price": "60.00",
+"id": "8"
+}
+]

@@ -1,0 +1,114 @@
+.section3 {
+    width: 100%;
+    height: 550px;
+    background-image: url("https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3deb4fc3462e1357/625c46ab6cb111500b66b406/Barcelona_Fans.jpg?auto=webp&format=pjpg&width=3840&quality=60");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .blur {
+        width: 100%;
+        height: 550px;
+        background-color: rgba($color: #1d2a4d, $alpha: 0.8);
+        .section3Top {
+            width: 100%;
+            height: 160px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            h2 {
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    Oxygen,
+                    Ubuntu,
+                    Cantarell,
+                    "Open Sans",
+                    "Helvetica Neue",
+                    sans-serif;
+                color: white;
+                background: -webkit-linear-gradient(#f19494, #748db8);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p {
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    Oxygen,
+                    Ubuntu,
+                    Cantarell,
+                    "Open Sans",
+                    "Helvetica Neue",
+                    sans-serif;
+                font-size: 13px;
+                font-weight: 700;
+                background: -webkit-linear-gradient(#f19494, #748db8);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .section3Center {
+            width: 100%;
+            height: 390px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 170px;
+            .card {
+                width: 252.5px;
+                height: 170px;
+                background-color: rgb(99, 99, 99);
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .cardBlur {
+                    width: 100%;
+                    height: 170px;
+                    background-color: rgba($color: #221F1B, $alpha: 0.7);
+                    position: absolute;
+                    top: 0;
+                    opacity: 0;
+                    transition: 200ms;
+                    h4{
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        transform: translateY(120px);
+                        text-align: center;
+                        transition: 200ms;
+                    }
+                    p{
+                        color: white;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        transform: translateY(120px);
+                        text-align: center;
+                        transition: 200ms;
+                        font-size: 9px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            :hover{
+                .cardBlur{
+                    opacity: 1;
+                    h4{
+                        transform: translateY(75px);
+                    }
+                    p{
+                        transform: translateY(80px);
+                    }
+                }
+            }
+        }
+
+    }
+
+}
